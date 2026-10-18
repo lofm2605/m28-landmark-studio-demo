@@ -1,0 +1,1185 @@
+{
+ "version": 3,
+ "status": "CHOT 18/10/2026 - 50 diem DMS, t_flip 0.0357, tolerance 3% IOD",
+ "side_convention": "image",
+ "side_note": "side theo BUC ANH (khong soi guong): R = nua PHAI anh (nhom *phai), L = nua TRAI anh (nhom *trai), M = tren truc. Nguoc voi config version 2 (side theo nguoi trong anh).",
+ "n_points": 50,
+ "points": [
+  {
+   "name": "longmaytrai_1",
+   "group": "longmaytrai",
+   "region": "brow",
+   "side": "L",
+   "flip": "longmayphai_1",
+   "mp_idx": 107,
+   "type": "E",
+   "curve": null,
+   "line": "longmaytrai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    225.15,
+    136.32
+   ]
+  },
+  {
+   "name": "longmaytrai_2",
+   "group": "longmaytrai",
+   "region": "brow",
+   "side": "L",
+   "flip": "longmayphai_2",
+   "mp_idx": 66,
+   "type": "C",
+   "curve": [
+    "longmaytrai_1",
+    "longmaytrai_2",
+    "longmaytrai_3",
+    "longmaytrai_4",
+    "longmaytrai_5"
+   ],
+   "line": "longmaytrai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    192.41,
+    133.13
+   ]
+  },
+  {
+   "name": "longmaytrai_3",
+   "group": "longmaytrai",
+   "region": "brow",
+   "side": "L",
+   "flip": "longmayphai_3",
+   "mp_idx": 105,
+   "type": "C",
+   "curve": [
+    "longmaytrai_1",
+    "longmaytrai_2",
+    "longmaytrai_3",
+    "longmaytrai_4",
+    "longmaytrai_5"
+   ],
+   "line": "longmaytrai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    164.47,
+    133.62
+   ]
+  },
+  {
+   "name": "longmaytrai_4",
+   "group": "longmaytrai",
+   "region": "brow",
+   "side": "L",
+   "flip": "longmayphai_4",
+   "mp_idx": 63,
+   "type": "C",
+   "curve": [
+    "longmaytrai_1",
+    "longmaytrai_2",
+    "longmaytrai_3",
+    "longmaytrai_4",
+    "longmaytrai_5"
+   ],
+   "line": "longmaytrai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    144.29,
+    141.58
+   ]
+  },
+  {
+   "name": "longmaytrai_5",
+   "group": "longmaytrai",
+   "region": "brow",
+   "side": "L",
+   "flip": "longmayphai_5",
+   "mp_idx": 70,
+   "type": "E",
+   "curve": null,
+   "line": "longmaytrai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    131.72,
+    154.99
+   ]
+  },
+  {
+   "name": "longmayphai_1",
+   "group": "longmayphai",
+   "region": "brow",
+   "side": "R",
+   "flip": "longmaytrai_1",
+   "mp_idx": 336,
+   "type": "E",
+   "curve": null,
+   "line": "longmayphai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    291.88,
+    134.68
+   ]
+  },
+  {
+   "name": "longmayphai_2",
+   "group": "longmayphai",
+   "region": "brow",
+   "side": "R",
+   "flip": "longmaytrai_2",
+   "mp_idx": 296,
+   "type": "C",
+   "curve": [
+    "longmayphai_1",
+    "longmayphai_2",
+    "longmayphai_3",
+    "longmayphai_4",
+    "longmayphai_5"
+   ],
+   "line": "longmayphai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    323.74,
+    130.09
+   ]
+  },
+  {
+   "name": "longmayphai_3",
+   "group": "longmayphai",
+   "region": "brow",
+   "side": "R",
+   "flip": "longmaytrai_3",
+   "mp_idx": 334,
+   "type": "C",
+   "curve": [
+    "longmayphai_1",
+    "longmayphai_2",
+    "longmayphai_3",
+    "longmayphai_4",
+    "longmayphai_5"
+   ],
+   "line": "longmayphai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    350.46,
+    129.34
+   ]
+  },
+  {
+   "name": "longmayphai_4",
+   "group": "longmayphai",
+   "region": "brow",
+   "side": "R",
+   "flip": "longmaytrai_4",
+   "mp_idx": 293,
+   "type": "C",
+   "curve": [
+    "longmayphai_1",
+    "longmayphai_2",
+    "longmayphai_3",
+    "longmayphai_4",
+    "longmayphai_5"
+   ],
+   "line": "longmayphai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    369.79,
+    136.21
+   ]
+  },
+  {
+   "name": "longmayphai_5",
+   "group": "longmayphai",
+   "region": "brow",
+   "side": "R",
+   "flip": "longmaytrai_5",
+   "mp_idx": 300,
+   "type": "E",
+   "curve": null,
+   "line": "longmayphai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    381.69,
+    148.58
+   ]
+  },
+  {
+   "name": "songmui_1",
+   "group": "songmui",
+   "region": "nose",
+   "side": "M",
+   "flip": "songmui_1",
+   "mp_idx": 168,
+   "type": "E",
+   "curve": null,
+   "line": "songmui",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    259.44,
+    176.39
+   ]
+  },
+  {
+   "name": "songmui_2",
+   "group": "songmui",
+   "region": "nose",
+   "side": "M",
+   "flip": "songmui_2",
+   "mp_idx": 197,
+   "type": "C",
+   "curve": [
+    "songmui_1",
+    "songmui_2",
+    "songmui_3",
+    "songmui_4"
+   ],
+   "line": "songmui",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    260.34,
+    208.47
+   ]
+  },
+  {
+   "name": "songmui_3",
+   "group": "songmui",
+   "region": "nose",
+   "side": "M",
+   "flip": "songmui_3",
+   "mp_idx": 5,
+   "type": "C",
+   "curve": [
+    "songmui_1",
+    "songmui_2",
+    "songmui_3",
+    "songmui_4"
+   ],
+   "line": "songmui",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    261.24,
+    236.0
+   ]
+  },
+  {
+   "name": "songmui_4",
+   "group": "songmui",
+   "region": "nose",
+   "side": "M",
+   "flip": "songmui_4",
+   "mp_idx": 1,
+   "type": "E",
+   "curve": null,
+   "line": "songmui",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    262.08,
+    267.44
+   ]
+  },
+  {
+   "name": "mattrai_1",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_1",
+   "mp_idx": 33,
+   "type": "E",
+   "curve": null,
+   "line": "mattrai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    160.84,
+    187.24
+   ]
+  },
+  {
+   "name": "mattrai_2",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_2",
+   "mp_idx": 160,
+   "type": "C",
+   "curve": [
+    "mattrai_1",
+    "mattrai_2",
+    "mattrai_3",
+    "mattrai_4",
+    "mattrai_5"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_8",
+   "tmpl": [
+    174.86,
+    178.33
+   ]
+  },
+  {
+   "name": "mattrai_3",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_3",
+   "mp_idx": 159,
+   "type": "C",
+   "curve": [
+    "mattrai_1",
+    "mattrai_2",
+    "mattrai_3",
+    "mattrai_4",
+    "mattrai_5"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_7",
+   "tmpl": [
+    185.55,
+    176.21
+   ]
+  },
+  {
+   "name": "mattrai_4",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_4",
+   "mp_idx": 158,
+   "type": "C",
+   "curve": [
+    "mattrai_1",
+    "mattrai_2",
+    "mattrai_3",
+    "mattrai_4",
+    "mattrai_5"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_6",
+   "tmpl": [
+    196.47,
+    176.59
+   ]
+  },
+  {
+   "name": "mattrai_5",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_5",
+   "mp_idx": 133,
+   "type": "E",
+   "curve": null,
+   "line": "mattrai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    220.83,
+    187.37
+   ]
+  },
+  {
+   "name": "mattrai_6",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_6",
+   "mp_idx": 153,
+   "type": "C",
+   "curve": [
+    "mattrai_5",
+    "mattrai_6",
+    "mattrai_7",
+    "mattrai_8",
+    "mattrai_1"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_4",
+   "tmpl": [
+    200.61,
+    190.67
+   ]
+  },
+  {
+   "name": "mattrai_7",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_7",
+   "mp_idx": 145,
+   "type": "C",
+   "curve": [
+    "mattrai_5",
+    "mattrai_6",
+    "mattrai_7",
+    "mattrai_8",
+    "mattrai_1"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_3",
+   "tmpl": [
+    189.97,
+    192.19
+   ]
+  },
+  {
+   "name": "mattrai_8",
+   "group": "mattrai",
+   "region": "eye",
+   "side": "L",
+   "flip": "matphai_8",
+   "mp_idx": 144,
+   "type": "C",
+   "curve": [
+    "mattrai_5",
+    "mattrai_6",
+    "mattrai_7",
+    "mattrai_8",
+    "mattrai_1"
+   ],
+   "line": "mattrai",
+   "anchor": 0,
+   "coincide": "mattrai_2",
+   "tmpl": [
+    179.07,
+    192.47
+   ]
+  },
+  {
+   "name": "matphai_1",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_1",
+   "mp_idx": 263,
+   "type": "E",
+   "curve": null,
+   "line": "matphai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    353.94,
+    182.77
+   ]
+  },
+  {
+   "name": "matphai_2",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_2",
+   "mp_idx": 387,
+   "type": "C",
+   "curve": [
+    "matphai_1",
+    "matphai_2",
+    "matphai_3",
+    "matphai_4",
+    "matphai_5"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_8",
+   "tmpl": [
+    339.81,
+    174.64
+   ]
+  },
+  {
+   "name": "matphai_3",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_3",
+   "mp_idx": 386,
+   "type": "C",
+   "curve": [
+    "matphai_1",
+    "matphai_2",
+    "matphai_3",
+    "matphai_4",
+    "matphai_5"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_7",
+   "tmpl": [
+    329.59,
+    172.84
+   ]
+  },
+  {
+   "name": "matphai_4",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_4",
+   "mp_idx": 385,
+   "type": "C",
+   "curve": [
+    "matphai_1",
+    "matphai_2",
+    "matphai_3",
+    "matphai_4",
+    "matphai_5"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_6",
+   "tmpl": [
+    318.4,
+    173.51
+   ]
+  },
+  {
+   "name": "matphai_5",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_5",
+   "mp_idx": 362,
+   "type": "E",
+   "curve": null,
+   "line": "matphai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    295.61,
+    185.95
+   ]
+  },
+  {
+   "name": "matphai_6",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_6",
+   "mp_idx": 380,
+   "type": "C",
+   "curve": [
+    "matphai_5",
+    "matphai_6",
+    "matphai_7",
+    "matphai_8",
+    "matphai_1"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_4",
+   "tmpl": [
+    315.31,
+    188.43
+   ]
+  },
+  {
+   "name": "matphai_7",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_7",
+   "mp_idx": 374,
+   "type": "C",
+   "curve": [
+    "matphai_5",
+    "matphai_6",
+    "matphai_7",
+    "matphai_8",
+    "matphai_1"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_3",
+   "tmpl": [
+    326.32,
+    189.33
+   ]
+  },
+  {
+   "name": "matphai_8",
+   "group": "matphai",
+   "region": "eye",
+   "side": "R",
+   "flip": "mattrai_8",
+   "mp_idx": 373,
+   "type": "C",
+   "curve": [
+    "matphai_5",
+    "matphai_6",
+    "matphai_7",
+    "matphai_8",
+    "matphai_1"
+   ],
+   "line": "matphai",
+   "anchor": 0,
+   "coincide": "matphai_2",
+   "tmpl": [
+    336.72,
+    189.01
+   ]
+  },
+  {
+   "name": "moingoai_1",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "L",
+   "flip": "moingoai_7",
+   "mp_idx": 61,
+   "type": "E",
+   "curve": null,
+   "line": "moingoai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    197.77,
+    331.59
+   ]
+  },
+  {
+   "name": "moingoai_2",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "L",
+   "flip": "moingoai_6",
+   "mp_idx": 40,
+   "type": "C",
+   "curve": [
+    "moingoai_1",
+    "moingoai_2",
+    "moingoai_3",
+    "moingoai_4",
+    "moingoai_5",
+    "moingoai_6",
+    "moingoai_7"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    212.29,
+    320.43
+   ]
+  },
+  {
+   "name": "moingoai_3",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "L",
+   "flip": "moingoai_5",
+   "mp_idx": 37,
+   "type": "C",
+   "curve": [
+    "moingoai_1",
+    "moingoai_2",
+    "moingoai_3",
+    "moingoai_4",
+    "moingoai_5",
+    "moingoai_6",
+    "moingoai_7"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    242.73,
+    310.9
+   ]
+  },
+  {
+   "name": "moingoai_4",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "M",
+   "flip": "moingoai_4",
+   "mp_idx": 0,
+   "type": "C",
+   "curve": [
+    "moingoai_1",
+    "moingoai_2",
+    "moingoai_3",
+    "moingoai_4",
+    "moingoai_5",
+    "moingoai_6",
+    "moingoai_7"
+   ],
+   "line": "moingoai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    262.13,
+    313.12
+   ]
+  },
+  {
+   "name": "moingoai_5",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "R",
+   "flip": "moingoai_3",
+   "mp_idx": 267,
+   "type": "C",
+   "curve": [
+    "moingoai_1",
+    "moingoai_2",
+    "moingoai_3",
+    "moingoai_4",
+    "moingoai_5",
+    "moingoai_6",
+    "moingoai_7"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    281.05,
+    309.47
+   ]
+  },
+  {
+   "name": "moingoai_6",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "R",
+   "flip": "moingoai_2",
+   "mp_idx": 270,
+   "type": "C",
+   "curve": [
+    "moingoai_1",
+    "moingoai_2",
+    "moingoai_3",
+    "moingoai_4",
+    "moingoai_5",
+    "moingoai_6",
+    "moingoai_7"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    310.12,
+    316.78
+   ]
+  },
+  {
+   "name": "moingoai_7",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "R",
+   "flip": "moingoai_1",
+   "mp_idx": 291,
+   "type": "E",
+   "curve": null,
+   "line": "moingoai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    323.77,
+    327.08
+   ]
+  },
+  {
+   "name": "moingoai_8",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "R",
+   "flip": "moingoai_12",
+   "mp_idx": 321,
+   "type": "C",
+   "curve": [
+    "moingoai_7",
+    "moingoai_8",
+    "moingoai_9",
+    "moingoai_10",
+    "moingoai_11",
+    "moingoai_12",
+    "moingoai_1"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    311.59,
+    349.77
+   ]
+  },
+  {
+   "name": "moingoai_9",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "R",
+   "flip": "moingoai_11",
+   "mp_idx": 314,
+   "type": "C",
+   "curve": [
+    "moingoai_7",
+    "moingoai_8",
+    "moingoai_9",
+    "moingoai_10",
+    "moingoai_11",
+    "moingoai_12",
+    "moingoai_1"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    283.24,
+    368.91
+   ]
+  },
+  {
+   "name": "moingoai_10",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "M",
+   "flip": "moingoai_10",
+   "mp_idx": 17,
+   "type": "C",
+   "curve": [
+    "moingoai_7",
+    "moingoai_8",
+    "moingoai_9",
+    "moingoai_10",
+    "moingoai_11",
+    "moingoai_12",
+    "moingoai_1"
+   ],
+   "line": "moingoai",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    263.08,
+    372.13
+   ]
+  },
+  {
+   "name": "moingoai_11",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "L",
+   "flip": "moingoai_9",
+   "mp_idx": 84,
+   "type": "C",
+   "curve": [
+    "moingoai_7",
+    "moingoai_8",
+    "moingoai_9",
+    "moingoai_10",
+    "moingoai_11",
+    "moingoai_12",
+    "moingoai_1"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    242.77,
+    370.57
+   ]
+  },
+  {
+   "name": "moingoai_12",
+   "group": "moingoai",
+   "region": "lip",
+   "side": "L",
+   "flip": "moingoai_8",
+   "mp_idx": 91,
+   "type": "C",
+   "curve": [
+    "moingoai_7",
+    "moingoai_8",
+    "moingoai_9",
+    "moingoai_10",
+    "moingoai_11",
+    "moingoai_12",
+    "moingoai_1"
+   ],
+   "line": "moingoai",
+   "anchor": 0,
+   "coincide": null,
+   "tmpl": [
+    212.42,
+    353.55
+   ]
+  },
+  {
+   "name": "moitrong_1",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "L",
+   "flip": "moitrong_5",
+   "mp_idx": 78,
+   "type": "E",
+   "curve": null,
+   "line": "moitrong",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    203.38,
+    332.06
+   ]
+  },
+  {
+   "name": "moitrong_2",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "L",
+   "flip": "moitrong_4",
+   "mp_idx": 81,
+   "type": "C",
+   "curve": [
+    "moitrong_1",
+    "moitrong_2",
+    "moitrong_3",
+    "moitrong_4",
+    "moitrong_5"
+   ],
+   "line": "moitrong",
+   "anchor": 0,
+   "coincide": "moitrong_8",
+   "tmpl": [
+    231.63,
+    324.65
+   ]
+  },
+  {
+   "name": "moitrong_3",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "M",
+   "flip": "moitrong_3",
+   "mp_idx": 13,
+   "type": "C",
+   "curve": [
+    "moitrong_1",
+    "moitrong_2",
+    "moitrong_3",
+    "moitrong_4",
+    "moitrong_5"
+   ],
+   "line": "moitrong",
+   "anchor": 1,
+   "coincide": "moitrong_7",
+   "tmpl": [
+    262.04,
+    324.33
+   ]
+  },
+  {
+   "name": "moitrong_4",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "R",
+   "flip": "moitrong_2",
+   "mp_idx": 311,
+   "type": "C",
+   "curve": [
+    "moitrong_1",
+    "moitrong_2",
+    "moitrong_3",
+    "moitrong_4",
+    "moitrong_5"
+   ],
+   "line": "moitrong",
+   "anchor": 0,
+   "coincide": "moitrong_6",
+   "tmpl": [
+    291.59,
+    322.48
+   ]
+  },
+  {
+   "name": "moitrong_5",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "R",
+   "flip": "moitrong_1",
+   "mp_idx": 308,
+   "type": "E",
+   "curve": null,
+   "line": "moitrong",
+   "anchor": 1,
+   "coincide": null,
+   "tmpl": [
+    318.52,
+    328.0
+   ]
+  },
+  {
+   "name": "moitrong_6",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "R",
+   "flip": "moitrong_8",
+   "mp_idx": 402,
+   "type": "C",
+   "curve": [
+    "moitrong_5",
+    "moitrong_6",
+    "moitrong_7",
+    "moitrong_8",
+    "moitrong_1"
+   ],
+   "line": "moitrong",
+   "anchor": 0,
+   "coincide": "moitrong_4",
+   "tmpl": [
+    292.41,
+    345.89
+   ]
+  },
+  {
+   "name": "moitrong_7",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "M",
+   "flip": "moitrong_7",
+   "mp_idx": 14,
+   "type": "C",
+   "curve": [
+    "moitrong_5",
+    "moitrong_6",
+    "moitrong_7",
+    "moitrong_8",
+    "moitrong_1"
+   ],
+   "line": "moitrong",
+   "anchor": 1,
+   "coincide": "moitrong_3",
+   "tmpl": [
+    262.78,
+    351.79
+   ]
+  },
+  {
+   "name": "moitrong_8",
+   "group": "moitrong",
+   "region": "lip",
+   "side": "L",
+   "flip": "moitrong_6",
+   "mp_idx": 178,
+   "type": "C",
+   "curve": [
+    "moitrong_5",
+    "moitrong_6",
+    "moitrong_7",
+    "moitrong_8",
+    "moitrong_1"
+   ],
+   "line": "moitrong",
+   "anchor": 0,
+   "coincide": "moitrong_2",
+   "tmpl": [
+    232.28,
+    348.41
+   ]
+  }
+ ],
+ "lines": {
+  "longmaytrai": {
+   "closed": false
+  },
+  "longmayphai": {
+   "closed": false
+  },
+  "songmui": {
+   "closed": false
+  },
+  "mattrai": {
+   "closed": true
+  },
+  "matphai": {
+   "closed": true
+  },
+  "moingoai": {
+   "closed": true
+  },
+  "moitrong": {
+   "closed": true
+  }
+ },
+ "iod_points": [
+  "mattrai_1",
+  "matphai_1"
+ ],
+ "t_flip": 0.0357,
+ "tolerance": 3.0,
+ "low_conf_v2": {
+  "version": 2,
+  "groups": [
+   "longmaytrai",
+   "longmayphai",
+   "songmui",
+   "mattrai",
+   "matphai",
+   "moingoai",
+   "moitrong"
+  ],
+  "mu": [
+   -4.265406,
+   -4.080836,
+   -3.529851,
+   0.099142,
+   0.100095,
+   0.080076,
+   0.160153,
+   0.160153,
+   0.240229,
+   0.160153
+  ],
+  "sd": [
+   0.873578,
+   0.575718,
+   0.586759,
+   0.298853,
+   0.300127,
+   0.271411,
+   0.366747,
+   0.366747,
+   0.427222,
+   0.366747
+  ],
+  "w": [
+   0.199962,
+   0.249533,
+   0.214023,
+   0.105859,
+   0.188982,
+   0.272784,
+   0.038622,
+   0.082897,
+   -0.268999,
+   -0.250952
+  ],
+  "b": -1.088923,
+  "threshold": 0.329376,
+  "mat_on_max": 20,
+  "mat_sua_min": 31,
+  "chon": "học trên 105 mặt dev (seed 7); ngưỡng điểm = bắt 55% điểm sai > 3% IOD trên dev; ngưỡng mặt: Ổn khi mặt xấu ≤ 10%, nên sửa nhãn khi mặt xấu ≥ 90% (trên dev)",
+  "test": {
+   "n_mat": 105.0,
+   "n_diem": 5232.0,
+   "sai_pct": 28.7844,
+   "co_pct": 34.9771,
+   "co_mat": 17.4286,
+   "bat_pct": 59.6282,
+   "chinh_xac_pct": 49.071,
+   "auroc": 0.7277
+  }
+ }
+}
